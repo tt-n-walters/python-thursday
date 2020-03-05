@@ -1,5 +1,6 @@
+from typing import Any, Optional, Callable, Union, Text
 
-def binary_search(data, needle, key=None):
+def binary_search(data: list, needle: Any, key: Optional[Callable[Any, Any]] = None) -> Any:
     left_index = 0
     right_index = len(data)
 
@@ -26,3 +27,4 @@ def main(needle):
 if __name__ == "__main__":
     print(main(6666666))
     
+    binary_search()
