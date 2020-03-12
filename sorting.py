@@ -5,7 +5,7 @@ print(__name__)
 #     data.append(random.randint(0, 100))
 
 # Generator Expression
-data = [random.randint(0, 100) for _ in range(25)]
+# data = [random.randint(0, 100) for _ in range(25)]
 
 
 def bubble(data, start_first, start_second):
@@ -40,8 +40,7 @@ def bubble(data, start_first, start_second):
 if __name__ == "__main__":
 
     data = [i for i in range(1000)]
-    for _ in range(1000):
+    while bubble(data, )
         bubble(data, 0, 0)
-
-    # data = [random.randint(0, 100) if i < 500 else i for i in range(1000)]
-    # bubble()
+        
+    
